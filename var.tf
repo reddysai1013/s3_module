@@ -12,3 +12,9 @@ variable "environment" {
   description = "The Environment tag"
   type        = string
 }
+
+variable "owner" {
+  
+  description = "The owner tag"
+  type        = string
+}

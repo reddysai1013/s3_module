@@ -4,5 +4,6 @@ resource "aws_s3_bucket" "this" {
   tags = {
     Name        = var.bucket_tag_name
     Environment = var.environment
+    owner = var.owner
   }
 }
